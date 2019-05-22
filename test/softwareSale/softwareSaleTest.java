@@ -9,8 +9,8 @@ public class softwareSaleTest {
 	@Test
 	public void testBuyOneSoftwarePackage() {
 		softwareSale s = new softwareSale();
-		double finalprice = s.calculatePrice(1);
-		assertEquals(99,finalprice,0);
+		double finalprice = s.calculatePrice(2);
+		assertEquals(198,finalprice,0);
 	}
 
 }
